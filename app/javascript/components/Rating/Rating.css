@@ -1,0 +1,23 @@
+.star-wrapper {
+    position: relative;
+    display: inline-block;
+    font-family: 'Font Awesome 5 Free';
+}
+
+.star-wrapper::before {
+    content: "\f005 \0020 \f005 \0020 \f005 \0020 \f005 \0020 \f005";
+}
+
+.stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 0;
+}
+
+.stars::before {
+    content: "\f005 \0020 \f005 \0020 \f005 \0020 \f005 \0020 \f005";
+    color: #ffc315;
+}
